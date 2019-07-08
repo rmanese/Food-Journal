@@ -58,7 +58,7 @@ class DishVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
                 self.dismiss(animated: true, completion: nil)
                 self.present(alertController, animated: true)
             } else {
-                let newDish = Dish(name: dishName)
+                let newDish = Dish(name: dishName.capitalized)
                 self.dishes.insert(newDish, at: 0)
                 self.tableView.insertRows(at: [IndexPath(row: 0, section: 0)], with: .automatic)
             }

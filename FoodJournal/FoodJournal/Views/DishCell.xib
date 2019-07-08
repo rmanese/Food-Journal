@@ -20,7 +20,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebf-oL-d1k">
-                        <rect key="frame" x="16" y="22" width="0.0" height="0.0"/>
+                        <rect key="frame" x="16" y="16" width="0.0" height="11.5"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -28,9 +28,9 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ebf-oL-d1k" secondAttribute="trailing" constant="16" id="BQF-db-A81"/>
-                    <constraint firstItem="ebf-oL-d1k" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="I20-tD-yRW"/>
+                    <constraint firstItem="ebf-oL-d1k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="I20-tD-yRW"/>
                     <constraint firstItem="ebf-oL-d1k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="PN2-V3-x3K"/>
-                    <constraint firstItem="ebf-oL-d1k" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="aV9-j6-G3q"/>
+                    <constraint firstAttribute="bottom" secondItem="ebf-oL-d1k" secondAttribute="bottom" priority="999" constant="16" id="v5C-fe-cbF"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
